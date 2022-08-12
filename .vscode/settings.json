@@ -1,0 +1,15 @@
+{
+  "prettier.enable": false,
+  "iconify.delimiters": [
+    ":",
+    "-",
+    "/"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false
+}

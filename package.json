@@ -1,0 +1,31 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--no-warnings nuxi build",
+    "dev": "cross-env NODE_OPTIONS=--no-warnings nuxi dev",
+    "start": "node .output/server/index.mjs",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.23.0",
+    "@iconify-json/carbon": "^1.1.4",
+    "@iconify-json/mdi": "^1.1.4",
+    "@iconify-json/twemoji": "^1.1.4",
+    "@nuxtjs/color-mode": "^3.0.3",
+    "@pinia/nuxt": "^0.1.9",
+    "@types/prismjs": "^1.26.0",
+    "@unocss/nuxt": "^0.33.2",
+    "@vueuse/nuxt": "^8.4.2",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.15.0",
+    "nuxt": "^3.0.0-rc.3",
+    "nuxt-swc": "^0.1.0",
+    "pinia": "^2.0.14",
+    "sass": "^1.52.1",
+    "typescript": "^4.6.4"
+  },
+  "dependencies": {
+    "highlight.js": "^11.5.1",
+    "prismjs": "^1.28.0"
+  }
+}
